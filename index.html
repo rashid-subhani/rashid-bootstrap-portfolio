@@ -257,26 +257,23 @@
       <p class="mb-0">&copy; 2025 Rashid Subhani. All Rights Reserved.</p>
     </footer>
 
-    <!-- Bootstrap & jQuery Scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- jQuery UI JS -->
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-  
-    <!-- accordion activation -->
-    <script>
-      $(function () {
-        $("#accordion").accordion({
-          collapsible: true,
-          heightStyle: "content",
-        });
-      });
-    </script>
-    <!-- Datepicker activation -->
-    <script>
-      $(function () {
-        $("#contact-date").datepicker();
-      });
-    </script>
+ 
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<!-- jQuery UI -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- jQuery UI Activation -->
+<script>
+  $(document).ready(function () {
+    $("#accordion").accordion();
+    $("#contact-date").datepicker();
+  });
+</script>
+
   </body>
 </html>
